@@ -1,0 +1,7 @@
+From: no.reply@alertsp.chase.com
+To: user@example.com
+Subject: Your $45.23 transaction at AMAZON.COM
+
+Your Chase card ending in 1234 was used for a $45.23 purchase at AMAZON.COM on 01/22/2025.
+
+If you did not authorize this transaction, please contact us immediately.

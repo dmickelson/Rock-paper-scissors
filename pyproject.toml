@@ -47,14 +47,22 @@ dependencies = [
 [project.optional-dependencies]
 dev = [
     "pytest>=6.2.5",
-    "black>=21.12b0"
+    "black>=21.12b0",
     "flake8>=4.0.1",
-    # Add more development dependencies as needed
+    "pytest-mock>=3.11",
+]
+budget = [
+    "gspread>=5.12",
+    "google-auth-oauthlib>=1.1",
+    "google-api-python-client>=2.100",
+    "ofxtools>=0.9",
+    "click>=8.1",
 ]
 
 # Entry points for your project (if it's a command-line tool)
 [project.scripts]
 rps = "RPS:player"
+budget = "budget.cli.main:cli"
 
 # URLs associated with the project
 [project.urls]
